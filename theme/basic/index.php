@@ -28,6 +28,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
 뭐야이거 dsafsdkl;fjas;ldkjfalk;sdjf;laksdjflk;ajdsf;lkajsdfja;sdj
 
+고경석
+
 
 
 
