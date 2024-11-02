@@ -61,7 +61,7 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/theme.js"></script>')
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
+            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/Layer_1.svg" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
     
         <div class="hd_sch_wr">
@@ -128,7 +128,7 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/theme.js"></script>')
         <h2>메인메뉴</h2>
         <div class="gnb_wrap">
             <ul id="gnb_1dul">
-                <li class="logo-wr"><a href="<?php echo G5_URL ?>"><img src="<?php echo G5_THEME_IMG_URL ?>/logo.svg"></a></li>
+                <li class="logo-wr"><a href="<?php echo G5_URL ?>"><img src="<?php echo G5_THEME_IMG_URL ?>/Layer_1.svg"></a></li>
 
                 <!--<li class="gnb_1dli gnb_mnal"><button type="button" class="gnb_menu_btn" title="전체메뉴"><i class="fa fa-bars" aria-hidden="true"></i><span class="sound_only">전체메뉴열기</span></button></li>
             -->

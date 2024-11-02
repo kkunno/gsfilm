@@ -34,16 +34,20 @@ a{cursor: pointer;}
 /* 헤드 */
 .logo-wr{display: inline-block;}
 .logo-wr img{width: 100px; height: 30px;}
-#gnb #gnb_1dul{display: flex; justify-content: space-between; align-items: center; width: 1200px; z-index: 1000; background-color: #fff; height: 55px; padding-left: 20px;}
+#gnb #gnb_1dul{display: flex; justify-content: space-between; align-items: center; width: 1200px; z-index: 1000; background-color: rgba(0, 0, 0, 0.2); height: 55px; padding-left: 20px; }
 #gnb_all{display: flex; z-index: 999;  top:55px;justify-content: center; transform: translateY(-30px); transition: 0.3s all; opacity: 0;visibility: hidden; border: none;}
 #gnb_all.visible{display: flex; justify-content: center; top:55px; transform: translate(0px); transition: 0.3s all; opacity: 1; visibility: visible;}
-.gnb_1dli .gnb_1da{padding: 0 30px;}
+.gnb_1dli .gnb_1da{padding: 0 30px; }
 #gnb_all .gnb_al_ul{display: flex; justify-content: end; width: 1200px;}
 #gnb_all .gnb_al_li{padding: 10px 0; text-align: center; border-left:none; }
 #gnb .gnb_wrap{display: flex; justify-content: center;}
 #hd{position: fixed; width: 100%; z-index: 10000; font-size: 1.3rem;}
 #wrapper{top: 55px;}
 .mobile-wr{display: none;}
+#gnb{
+  height:80px;
+}
+
 
 
 
@@ -534,3 +538,145 @@ font-weight: 500;}
 .sct_wrap{width: 100%;}
 .smt_40{display: grid; grid-template-columns: repeat(4, 1fr);}
 .smt_40 .sct_li{width: 100%;}
+
+/* 메인 컨텐츠1 */
+.co1_wr {
+  display:flex; width: 100%; height:70vh; background: linear-gradient(to bottom, #6DB130 60%, #FFFFFF 40%);
+}
+.co1{display: flex; width: 1200px; margin:100px auto;}
+.co1-1{display: flex; width: 100%; justify-content: center; position: relative; overflow: hidden;}
+.co1-1:hover img{transform: scale(1.05); transition: 0.2s all;}
+.co1-1 img{width: 100%; z-index: -2;transform: scale(1.01);}
+.subject{font-size: 34px; text-align: center; font-weight: 600; color: #12669A;}
+.subject.left{text-align: left;}
+.subject.left span{margin-top: 0;}
+.subject span{display: block; font-size: 1.5rem; margin-top: 20px;}
+.co1-1 .co1-text{position: absolute; bottom: 0; width: 100%;  padding: 20px 0;}
+.co1-1 .co1-text .subject{color: #121212;}
+.co1-1 .co1-text::after{content: '';background-color: #fff; position: absolute; left: 0; bottom: 0; right: 0; top: 0; z-index: -1; border-radius: 20px 20px 0 0;}
+.co1-txt{
+  width:100%;
+}
+.subject{
+  font-size:2.5rem;
+}
+.co1-txt {
+  width:80%; display: flex; flex-direction: column; color:#fff; margin:0 30px;
+}
+.main_title{
+  font-size: 5rem; margin-bottom: 20px;
+}
+.co1-txt > p {
+  font-size: 2rem; 
+}
+.co1-1 {
+  height:70%;
+}
+.viewdetail {
+  width:300px; padding:10px 0; font-size: 2rem;
+  margin-top: 20%;
+}
+.viewdetail > img {
+  margin-left:10px;
+}
+/* 메인 컨텐츠2 */
+.co2_wr {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* 기준 요소 설정 */
+  height: 70vh; /* 컨테이너 높이 설정 */
+  overflow: hidden; /* 요소가 밖으로 넘치지 않도록 설정 */
+}
+
+.co2_bg{
+  position: absolute; /* 절대 위치 설정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%; /* 원하는 높이만큼 차지 */
+  background-image: url('../img/co2_bg.jpg'); /* 이미지 경로 */
+  background-size: cover; /* 이미지 비율 유지 */
+  background-position: center top; /* 이미지 상단 중앙 정렬 */
+  z-index: -999;
+}
+.co2_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 비율 유지하면서 꽉 채우기 */
+}
+.co2_bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* 검정색 30% 투명도 */
+  z-index: 2; /* 이미지 위에 표시 */
+}
+.co2_wr > .main_title {
+  width:1200px; margin:20px auto; color: #fff;
+}
+.co2{
+  width:1200px; display: flex; margin: 10px auto; background-color: #fff; padding:20px;
+}
+.bar{
+  height:2px; width:100%; background-color: #6DB130;
+}
+.co2_txt{
+   width:60%; display: flex; flex-direction: column; margin-left:60px;
+}
+.co2_txt > h3 {
+  font-size: 4rem; line-height: 1.3; color:#6DB130; padding:30px 0;
+}
+.co2_txt > p {
+  font-size:1.5rem; line-height: 1.3;
+  padding:30px 0;
+}
+
+/* 메인 컨텐츠3 */
+.co3_wr{
+  width:100%; display: flex; flex-direction: column;
+}
+.co3{
+  width:1200px; margin:0 auto; justify-items: center;
+}
+.co3_title{
+  font-size: 4rem; line-height: 1.3;padding:30px 0; text-align: center;
+}
+.co3_title span{
+  color:#6DB130;
+}
+.co3 p{
+  font-size: 3rem; font-weight: 300; text-align: center; padding:20px 0;
+}
+.co_btn{
+  padding:20px 40px; font-size: 2rem; font-weight: 500; background-color:#6DB130; color:#fff; border-radius: 20px;
+}
+.co3_img {
+  margin:60px 0;
+}
+.co3_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 비율 유지하면서 꽉 채우기 */
+}
+
+/* 메인컨텐츠4 */
+
+.co4_wr{
+  width:1200px; padding:100px 0; margin:0 auto; display: flex; gap:60px;
+}
+.co4_title{
+  font-size: 5rem;
+}
+.co4 p{
+  font-size: 2rem; margin-bottom: 20px;
+}
+.co4_num{
+  font-size:4rem ; font-weight: 600;
+}
+.co4_wr img{
+  margin-right: 10px;
+}
