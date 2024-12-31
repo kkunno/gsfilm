@@ -61,7 +61,11 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     <div id="hd_wrapper">
 
         <div id="logo">
+<<<<<<< HEAD
             <a href="<?php echo G5_URL ?>"><img src="../../theme/basic/img/img_logo_color.png" alt="<?php echo $config['cf_title']; ?>"></a>
+=======
+            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/Layer_1.svg" alt="<?php echo $config['cf_title']; ?>"></a>
+>>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452
         </div>
     
         <div class="hd_sch_wr">
@@ -128,7 +132,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <h2>메인메뉴</h2>
         <div class="gnb_wrap">
             <ul id="gnb_1dul">
-                <li class="logo-wr"><a href="<?php echo G5_URL ?>"><img src="<?php echo G5_THEME_IMG_URL ?>/logo.svg"></a></li>
+                <li class="logo-wr"><a href="<?php echo G5_URL ?>"><img src="<?php echo G5_THEME_IMG_URL ?>/Layer_1.svg"></a></li>
 
                 <!--<li class="gnb_1dli gnb_mnal"><button type="button" class="gnb_menu_btn" title="전체메뉴"><i class="fa fa-bars" aria-hidden="true"></i><span class="sound_only">전체메뉴열기</span></button></li>
             -->

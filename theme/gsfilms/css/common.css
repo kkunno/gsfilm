@@ -512,7 +512,7 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .tbl_list th {font-weight: 500; text-align: center;}
 .tbl_list td {color: #666; font-size: 1em; letter-spacing: -.04em; font-weight: 300; line-height: 1.4;}
 .tbl_list td a {color: #666; display: inline-block;}
-.tbl_list td a:hover {color: #ea5b05; text-decoration: underline;}
+.tbl_list td a:hover {color: #ea5b05; text-decoration: underline;}11656156156156156+251
 .tbl_list tr:hover td {background: #f9f9f9;}
 .tbl_list .title {width: 45%}
 .tbl_view { border-collapse: collapse; margin: 0; padding: 0; width: 100%;  border-top: 2px solid #262626; background: #fff;}
@@ -521,7 +521,7 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .tbl_view tbody td {padding: 1em; text-align: left; font-size: 1em; color: #666; border-bottom: 1px solid #e5e5e5; line-height: 1.4; letter-spacing: 0;}
 .tbl_view .tbl_img {width: 100%; max-width: 1100px;}
 .tbl_view .tbl_content {padding: 30px !important;}
-.tbl_view .file_download a:hover {text-decoration: underline; color: #3a6dc3; }
+.tbl_view .file_download a:hover {text-decoration: underline; color: #329D37; }
 .tbl_view .file_download span { display: inline-block; margin-left: 5px; font-size: .95em; color: #666;}
 .tbl_view .file_download b {display: inline-block; font-size: .8em; font-weight: 500; color: #999;}
 .tbl_nav {border-top: 1px solid #ddd; background: #fff; text-align: left;}
@@ -546,10 +546,10 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .ceo-text { margin-top: 2em;}
 .ceo-text div {margin-bottom: 1.25em; line-height: 1.5; color: #666; font-weight: 300; font-size: 2rem; text-align: center;}
 .ceo-text div span{color:#40a23a;}
-.ceo-text div .ceo { font-size: 3rem; font-weight: 900; color:#000; text-align: center; }
-.ceo-text div .ceo span {color:#40a23a;}
+.ceo-text div p { font-size: 3rem; font-weight: 900; color:#000; text-align: center; }
+.ceo-text div p span {color:#40a23a;}
 .ceo-text .ceo_sign{ display:flex; justify-content: space-between; font-size:2rem;}
-.ceo-text .ceo_sign img{ width:250px; height:45px; }
+.ceo-text .ceo_sign img{ width:250px; height:45px;}
 .ceo-text .ceo_sign div{font-size:1.5rem; font-weight: 800; display: flex; }
 .ceo-text .ceo_sign .sign{ width:100px; height:auto; }
 

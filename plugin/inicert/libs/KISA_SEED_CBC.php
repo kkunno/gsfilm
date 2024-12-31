@@ -171,7 +171,11 @@ if (!defined('_KISA_SEED_KEY_')) {
 
         var $key_data = null;
 
+<<<<<<< HEAD
         function KISA_SEED_KEY() {
+=======
+        function __construct() {
+>>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452
             $this->key_data = array_pad(array(), 32, 0);
         }
 
@@ -192,7 +196,11 @@ if (!defined('_KISA_SEED_INFO_')) {
         var $cbc_last_block = null;
         var $last_block_flag = 0;
 
+<<<<<<< HEAD
         function KISA_SEED_INFO() {
+=======
+        function __construct() {
+>>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452
             $this->ivec = array_pad(array(), 4, 0);
             $this->seed_key = new KISA_SEED_KEY();
             $this->cbc_buffer = array_pad(array(), 4, 0);
@@ -782,6 +790,10 @@ class KISA_SEED_CBC {
         $pbszCipherText = array_pad(array(), $message_length, 0);
         Common::arraycopy_system($message, $message_offset, $pbszCipherText, 0, $message_length);
         $nCipherTextLen = count($pbszCipherText);
+<<<<<<< HEAD
+=======
+        $result = null;
+>>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452
 
         if ($nCipherTextLen % KISA_SEED_CBC::BLOCK_SIZE_SEED) {
             return $result;
