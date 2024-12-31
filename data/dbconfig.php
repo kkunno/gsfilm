@@ -7,9 +7,17 @@ define('G5_MYSQL_DB', 'gnuboard');
 define('G5_MYSQL_SET_MODE', true);
 
 define('G5_TABLE_PREFIX', 'g5_');
+<<<<<<< HEAD
 
 define('G5_TOKEN_ENCRYPTION_KEY', '61d44903638aca2a8183fd0eb89e9ecc'); // 토큰 암호화에 사용할 키
 
+=======
+/*
+define('G5_TOKEN_ENCRYPTION_KEY', '61d44903638aca2a8183fd0eb89e9ecc'); // 토큰 암호화에 사용할 키
+=======
+define('G5_TOKEN_ENCRYPTION_KEY', '0511d60424cbf272db9b1f42b2e6f5c0'); // 토큰 암호화에 사용할 키
+>>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452*/
+>>>>>>> 03d055e4332730c6416123b26af6785f20385846
 $g5['write_prefix'] = G5_TABLE_PREFIX.'write_'; // 게시판 테이블명 접두사
 
 $g5['auth_table'] = G5_TABLE_PREFIX.'auth'; // 관리권한 설정 테이블
