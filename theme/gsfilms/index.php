@@ -61,13 +61,18 @@ include_once(G5_THEME_PATH.'/head_common.php');
     <div class="main-content">
         <div class="main-product up-on-scroll">
             <h2>Product<p class="comment1">최고의 제품을 합리적인<br>제품으로 제공해드립니다</p></h2>
+
+       
+
+        </div>
+        <div class="main-product full up-on-scroll">
             <ul>
                 <li>
                     <a href="/n/bbs/content.php?co_id=farmfilm">
-                        <span>농업용 멀칭비닐</span>
+                        <img src="<?php echo G5_THEME_URL ?>/images/logo.svg" alt="">
                         <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_06.png" alt=""></h3>
                         <p>비옥한 토지에 건강하고 풍성하게 <br>성장하는 농산물을 상징하는 <br>㈜금성필름의 농업용 멀칭비닐 브랜드</p>
-                        <img src="<?php echo G5_THEME_URL ?>/images/icon_main_09.jpg" alt="">
+
                     </a>
                 </li>
                 <li>
