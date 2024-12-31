@@ -59,7 +59,7 @@ if ($w == '') {
         }
     }
 
-    $title_msg = '';
+    $title_msg = '글쓰기';
 } else if ($w == 'u') {
     // 김선용 1.00 : 글쓰기 권한과 수정은 별도로 처리되어야 함
     //if ($member['mb_level'] < $board['bo_write_level']) {

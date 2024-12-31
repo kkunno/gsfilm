@@ -97,7 +97,6 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
             <li><a href="<?php echo shop_type_url(3); ?>">최신상품</a></li>
             <li><a href="<?php echo shop_type_url(4); ?>">인기상품</a></li>
             <li><a href="<?php echo shop_type_url(5); ?>">할인상품</a></li>
-            <li><a href="<?php echo shop_type_url(6); ?>">전체상품</a></li>           
         </ul>
     </div> 
 </div>

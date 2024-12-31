@@ -46,7 +46,9 @@ function onYouTubeIframeAPIReady() {
 				'playlist':thisVideoId, //반복재생
 				'loop':1, //반복재생
 				'vq':'HD1080' //화질
+                
 			},
+
 			events:{
 				'onReady':onPlayerReady,
 				'onStateChange': onPlayerStateChange

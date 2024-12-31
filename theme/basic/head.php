@@ -1,6 +1,7 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE & ~E_WARNING);
+
+
 if(G5_COMMUNITY_USE === false) {
     define('G5_IS_COMMUNITY_PAGE', true);
     include_once(G5_THEME_SHOP_PATH.'/shop.head.php');
@@ -14,7 +15,6 @@ include_once(G5_LIB_PATH.'/visit.lib.php');
 include_once(G5_LIB_PATH.'/connect.lib.php');
 include_once(G5_LIB_PATH.'/popular.lib.php');
 
-add_javascript('<script src="'.G5_THEME_JS_URL.'/theme.js"></script>')
 ?>
 <meta property="og:image" content="<?=G5_THEME_IMG_URL?>/ogimage.jpg" />
 <link rel="shortcut icon" href="<?=G5_THEME_IMG_URL?>/pavicon.png" type="image/x-icon">
@@ -61,7 +61,7 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/theme.js"></script>')
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
+            <a href="<?php echo G5_URL ?>"><img src="../../theme/basic/img/img_logo_color.png" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
     
         <div class="hd_sch_wr">
@@ -124,7 +124,7 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/theme.js"></script>')
         </ul>
     </div>
     
-    <nav id="gnb">
+    <nav id="gnb" class="change-color">
         <h2>메인메뉴</h2>
         <div class="gnb_wrap">
             <ul id="gnb_1dul">
@@ -275,8 +275,8 @@ foreach ($menu_datas as $menu) {
 if (!empty($primaryMenuName)):
 ?>
 <div class="topBanner">
-    <div class="bannerText"><?php echo htmlspecialchars($primaryMenuName); ?><br><?php echo htmlspecialchars($g5['title']); ?></div>
-    <img src="../theme/basic/img/banner<?php echo htmlspecialchars($primaryMenuCode); ?>.png">
+    <div class="bannerText"><?/*<?php echo htmlspecialchars($primaryMenuName); ?><br><?php echo htmlspecialchars($g5['title']); ?>*/?></div>
+    <img src="../theme/basic/img/banner<?php echo htmlspecialchars($primaryMenuCode); ?>.jpg">
 
     <div class="button-wr">
         <?php foreach ($secondaryMenus as $index => $subMenu): ?>
@@ -288,7 +288,7 @@ if (!empty($primaryMenuName)):
             ?>
             <a href="<?php echo htmlspecialchars($subMenu['me_link']); ?>" class="button <?php echo $activeClass; ?>"><div><?php echo htmlspecialchars($subMenu['me_name']); ?></div></a>
             <?php if ($index < count($secondaryMenus) - 1): // 마지막 항목이 아닐 경우에만 분리자 추가 ?>
-                <div class="bar2"></div>
+               
             <?php endif; ?>
         <?php endforeach; ?>
     </div>
@@ -304,9 +304,9 @@ if (!empty($primaryMenuName)):
 
 <hr>
 
-<!-- 콘텐츠 시작
+<!-- 콘텐츠 시작 { -->
 <div id="wrapper">
     <div id="container_wr">
    
-    <div id="container">--> 
-        <?php if (!defined("_INDEX_")) { ?><h2 id="container_title"><?/*<span title="<?php echo get_text($g5['title']); ?>"><?php echo get_head_title($g5['title']); ?></span>*/?></h2><?php }
+    <div id="container">
+        <?php if (!defined("_INDEX_")) { ?><?php }

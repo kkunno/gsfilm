@@ -16,7 +16,7 @@ y="0px" >
             <div class="top"><?php echo $menu['me_name']; ?></div>
             <div class="bottom">
                 <?php foreach ($menu2 as $menu_item): //menu2[0]부터 끝까지 반복하기 ?>
-                    <li class="side-li <?php echo (strpos($g5['title'], $menu_item['me_name']) !== false) ? ' active' : ''; ?>">
+                    <li class="side-li <?php echo ($menu_item['me_name'] == $g5['title']) ? ' active' : '';//타이틀이 me_name이랑 같으면 active 추가 ?>">
                     <a href="<?php echo $menu_item['me_link']; ?>"><?php echo $menu_item['me_name']; ?> <div><?= str_repeat($svg, 3)?></div>
                     </a>
                     </li>

@@ -39,7 +39,6 @@ y="0px" >
 
 
 
-
 <!-- 게시판 목록 시작 { -->
 <div id="bo_list" style="width:<?php echo $width; ?>">
     <!-- 게시판 검색 시작 { -->
@@ -194,11 +193,11 @@ y="0px" >
                         <?php echo $list[$i]['subject'] ?>
                     </a>
                     <?php
-                    if ($list[$i]['icon_new']) echo "<span class=\"new_icon\">N<span class=\"sound_only\">새글</span></span>";
+                   // if ($list[$i]['icon_new']) echo "<span class=\"new_icon\">N<span class=\"sound_only\">새글</span></span>";
                     // if ($list[$i]['file']['count']) { echo '<'.$list[$i]['file']['count'].'>'; }
-                    if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
-                    if (isset($list[$i]['icon_file'])) echo rtrim($list[$i]['icon_file']);
-                    if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
+                    //if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
+                    //if (isset($list[$i]['icon_file'])) echo rtrim($list[$i]['icon_file']);
+                    //if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
                     ?>
                     <?php if ($list[$i]['comment_cnt']) { ?><span class="sound_only">댓글</span><span class="cnt_cmt"><?php echo $list[$i]['wr_comment']; ?></span><span class="sound_only">개</span><?php } ?>
                 </div>
@@ -319,4 +318,3 @@ jQuery(function($){
 <?php } ?>
 <!-- } 게시판 목록 끝 -->
 </div>
-

@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /* 초기화 */
-html {overflow-y:scroll; font-size: 10px;}
-body {margin:0;padding:0;font-size:0.75em;font-family:'pretendard', dotum, sans-serif}
+html {overflow-y:scroll}
+body {margin:0;padding:0;font-size:0.75em;font-family:'Malgun Gothic', dotum, sans-serif}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em;font-family:'Malgun Gothic', dotum, sans-serif}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
@@ -161,7 +161,7 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 
 /* 중간 레이아웃 */
 /* #wrapper {z-index:5;margin:0 auto;width:1200px;position:relative} */
-#wrapper {z-index:5;position:relative;width:100%;}
+#wrapper {z-index:5;position:relative;width:100%;background:#f6f6f6}
 #wrapper.is_community{background:#fff}
 #wrapper:after {display:block;visibility:hidden;clear:both;content:""}
 #wrapper_title {padding:20px 0;font-size:2em;font-weight:bold}

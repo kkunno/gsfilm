@@ -15,7 +15,6 @@ else if ($type === 2) $g5['title'] = '추천상품';
 else if ($type === 3) $g5['title'] = '최신상품';
 else if ($type === 4) $g5['title'] = '인기상품';
 else if ($type === 5) $g5['title'] = '할인상품';
-else if ($type === 6) $g5['title'] = '전체상품';
 else
     alert('상품유형이 아닙니다.');
 

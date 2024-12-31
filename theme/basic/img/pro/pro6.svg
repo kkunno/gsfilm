@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467.39 312.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #126698;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #d0e0ea;
+      }
+
+      .cls-3 {
+        fill: #71a3c1;
+      }
+
+      .cls-8 {
+        fill: #3e3a39;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 19.65px;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        font-family: PretendardVariable-SemiBold, 'Pretendard Variable';
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-4, .cls-11 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #a0c2d6;
+      }
+
+      .cls-9, .cls-10 {
+        fill: #868686;
+      }
+
+      .cls-12 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-10 {
+        font-size: 14px;
+      }
+
+      .cls-11 {
+        stroke: #231815;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-13 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        fill: #4185ad;
+      }
+
+      .cls-15 {
+        mix-blend-mode: multiply;
+      }
+    </style>
+  </defs>
+  <g class="cls-7">
+    <g id="_레이어_2" data-name="레이어 2">
+      <g id="_레이어_1-2" data-name="레이어 1">
+        <rect class="cls-4" width="467.39" height="312.05"/>
+        <text class="cls-8" transform="translate(98.97 254.13)"><tspan x="0" y="0">2014</tspan></text>
+        <text class="cls-8" transform="translate(184.93 254.13)"><tspan x="0" y="0">2015</tspan></text>
+        <text class="cls-8" transform="translate(270.45 254.13)"><tspan x="0" y="0">2016</tspan></text>
+        <text class="cls-8" transform="translate(356.77 254.13)"><tspan x="0" y="0">2017</tspan></text>
+        <text class="cls-10" transform="translate(35.55 195.14)"><tspan x="0" y="0">1</tspan><tspan class="cls-14" x="6.42" y="0">0,</tspan><tspan x="18.47" y="0">000</tspan></text>
+        <text class="cls-10" transform="translate(35.55 157.52)"><tspan x="0" y="0">2</tspan><tspan class="cls-14" x="8.44" y="0">0,</tspan><tspan x="20.49" y="0">000</tspan></text>
+        <text class="cls-10" transform="translate(35.55 120.94)"><tspan x="0" y="0">3</tspan><tspan class="cls-14" x="8.84" y="0">0,</tspan><tspan x="20.89" y="0">000</tspan></text>
+        <text class="cls-10" transform="translate(35.55 86.1)"><tspan x="0" y="0">4</tspan><tspan class="cls-14" x="9.04" y="0">0,</tspan><tspan x="21.09" y="0">000</tspan></text>
+        <text class="cls-10" transform="translate(72.07 40.23)"><tspan x="0" y="0">생산실적(백만원)</tspan></text>
+        <text class="cls-9" transform="translate(358.49 285.22)"><tspan class="cls-13" x="0" y="0">▲5</tspan><tspan class="cls-12" x="29.34" y="0">1</tspan><tspan class="cls-13" x="36.41" y="0">.4%</tspan></text>
+        <line class="cls-11" x1="89.6" y1="225.21" x2="420.29" y2="225.21"/>
+        <line class="cls-11" x1="89.6" y1="189.21" x2="420.29" y2="189.21"/>
+        <line class="cls-11" x1="89.6" y1="153.21" x2="420.29" y2="153.21"/>
+        <line class="cls-11" x1="89.6" y1="117.21" x2="420.29" y2="117.21"/>
+        <line class="cls-11" x1="89.6" y1="81.21" x2="420.29" y2="81.21"/>
+        <g class="cls-15">
+          <rect class="cls-6" x="93.95" y="217.6" width="11.23" height="7.61"/>
+          <rect class="cls-5" x="105.18" y="221.4" width="11.23" height="3.81"/>
+          <rect class="cls-3" x="116.41" y="133.21" width="11.23" height="92"/>
+          <rect class="cls-1" x="138.86" y="129.86" width="11.23" height="95.35"/>
+        </g>
+        <g class="cls-15">
+          <rect class="cls-6" x="179.63" y="219.4" width="11.23" height="5.81"/>
+          <rect class="cls-5" x="190.86" y="216.05" width="11.23" height="9.16"/>
+          <rect class="cls-3" x="202.08" y="133.21" width="11.23" height="92"/>
+          <rect class="cls-1" x="224.53" y="122.11" width="11.23" height="103.1"/>
+        </g>
+        <g class="cls-15">
+          <rect class="cls-6" x="265.31" y="217.6" width="11.23" height="7.61"/>
+          <rect class="cls-5" x="276.53" y="195.15" width="11.23" height="30.06"/>
+          <rect class="cls-3" x="287.76" y="149.21" width="11.23" height="76"/>
+          <rect class="cls-1" x="310.21" y="117.21" width="11.23" height="108"/>
+        </g>
+        <g class="cls-15">
+          <rect class="cls-6" x="350.99" y="217.6" width="11.23" height="7.61"/>
+          <rect class="cls-5" x="362.21" y="181.47" width="11.23" height="43.74"/>
+          <rect class="cls-3" x="373.44" y="113.86" width="11.23" height="111.35"/>
+          <rect class="cls-2" x="384.66" y="217.6" width="11.23" height="7.61"/>
+          <rect class="cls-1" x="395.89" y="65.86" width="11.23" height="159.35"/>
+        </g>
+        <rect class="cls-6" x="52.97" y="28.25" width="13.98" height="13.98"/>
+        <text class="cls-10" transform="translate(194.97 40.23)"><tspan x="0" y="0">수입실적</tspan></text>
+        <rect class="cls-5" x="175.87" y="28.25" width="13.98" height="13.98"/>
+        <text class="cls-10" transform="translate(274.64 40.23)"><tspan x="0" y="0">수출실적</tspan></text>
+        <rect class="cls-3" x="255.55" y="28.25" width="13.98" height="13.98"/>
+        <text class="cls-10" transform="translate(356.77 40.23)"><tspan x="0" y="0">생산규모</tspan></text>
+        <rect class="cls-1" x="337.68" y="28.25" width="13.98" height="13.98"/>
+      </g>
+    </g>
+  </g>
+</svg>

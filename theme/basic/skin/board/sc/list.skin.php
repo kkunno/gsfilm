@@ -15,11 +15,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 ?>
 
-<? echo '<pre>';
-print_r($menu2);
-echo '</pre>';
 
-?>
 
 
 <div class="ctt_con_wr">

@@ -6,15 +6,25 @@ $svg = ' <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/
 y="0px" >
 <polyline class="st0" points="0.3,0.2 4.6,8.7 0.3,17.3 "/>
 </svg>';
-add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 ?>
 
-<article id="ctt" class="ctt_<?php echo $co_id; ?>">
 
+
+
+
+
+
+
+<article id="ctt" class="ctt_<?php echo $co_id; ?>">
+    <header>
+
+    </header>
 
     <div id="ctt_con">
-        <!-- 사이드메뉴 -->
-        <? $menu2 = $menu['sub']; ?><!-- 선언해두기 -->
+        <div class="ctt_con_wr">
+
+                <!-- 사이드메뉴 -->
+                <? $menu2 = $menu['sub']; ?><!-- 선언해두기 -->
         <div class="sidemenu">
             <div class="top"><?php echo $menu['me_name']; ?></div>
             <div class="bottom">
@@ -26,9 +36,15 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                 <?php endforeach; ?>
             </div>
         </div>
-        <div class="ctt_cont">
 
-        <?php echo $str; ?>
+        <div class="co-wr">
+        <?php echo $str; ?><!-- 본문내용, 관리자 내용관리에서 수정할 수 있다.-->
+
+
+
+
+        <div class="blank"></div>
+        </div>
         </div>
     </div>
 

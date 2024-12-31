@@ -760,7 +760,18 @@ $redirect_url = run_replace('write_update_move_url', short_url_clean(G5_HTTP_BBS
 
 run_event('write_update_after', $board, $wr_id, $w, $qstr, $redirect_url);
 
-if ($file_upload_msg)
+if ($file_upload_msg){
     alert($file_upload_msg, $redirect_url);
-else
-    goto_url($redirect_url);
+
+} else {
+	if ($bo_table == 'me5_1') {
+		alert('문의가 완료되었습니다. 감사합니다.');
+		$redirect_url = $_SERVER['HTTP_REFERER'];
+	}
+    elseif ($bo_table == 'me5_2') {
+		alert('견적 요청이 전달되었습니다. 감사합니다.');
+		$redirect_url = $_SERVER['HTTP_REFERER'];
+	}
+
+	goto_url($redirect_url);
+}

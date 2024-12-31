@@ -103,7 +103,7 @@ require_once G5_ADMIN_PATH . '/admin.head.php';
                 </tr>
                 <tr>
                     <th scope="row">내용</th>
-                    <td><?php echo editor_html('co_content', get_text(html_purifier($co['co_content']), 0)); ?></td>
+                    <td><?php echo editor_html('co_content', get_text($co['co_content'], 0)); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">모바일 내용</th>

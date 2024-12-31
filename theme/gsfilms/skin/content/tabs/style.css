@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* 내용관리 */
+#ctt {margin: 0;padding:0;background:#fff}
+.ctt_admin {text-align:right; position: absolute; width: 100%;}
+#ctt header h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#ctt_con {padding:10px 0;line-height:1.6em}
+#ctt_con img{max-width:100%;height:auto}
+.ctt_img {text-align:center}
+
+/* FF */
+.sub-content {position: relative;}
+.btn_admin {background: transparent !important; box-shadow: none !important; color: #eee !important;}
+.fa-spin {-webkit-animation: none !important; animation: none !important;}
+    
