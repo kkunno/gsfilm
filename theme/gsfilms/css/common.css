@@ -425,11 +425,13 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .main-product {width: 100%;  max-width: 1500px; margin: 0 auto;}
 .main-product.full{max-width: none; padding: 0 2.08vw; height:39.58vw;}
 .main-product > ul {font-size: 0; margin-top: 50px; gap: .26vw; display: flex; height: 100%;}
-.main-product > ul li {position: relative; flex: 1 1 0%; font-size: 16px; vertical-align: top; text-align: center; border-radius: 1.25vw; box-shadow: 10px 20px 20px rgba(0,0,0,.15); overflow: hidden; height: 100%; transition: all .5s ease;}
 
+.main-product > ul li {position: relative; flex: 1 1 0%; font-size: 16px; vertical-align: top; text-align: center; border-radius: 1.25vw; box-shadow: 10px 20px 20px rgba(0,0,0,.15); overflow: hidden; height: 100%; transition: all .5s ease; padding: 20px 0;}
+.main-product .logos{height: 4vw;}
 .main-product > ul li:nth-child(1) {background-image: url(../images/main1.jpg); background-size: cover; background-position: center;}
-.main-product > ul li:nth-child(2) {background: #39af98;}
-.main-product > ul li:nth-child(3) {background: #e79c26; margin-right: 0;}
+.main-product > ul li:nth-child(2) {background-image: url(../images/main2.jpg); background-size: cover; background-position: center;}
+.main-product > ul li:nth-child(3) {background-image: url(../images/main3.jpg); background-size: cover; background-position: center;}
+
 .main-product > ul li:nth-child(1):hover {flex: 6.5 1 0%;}
 .main-product > ul li:nth-child(2):hover {flex: 6.5 1 0%;}
 .main-product > ul li:nth-child(3):hover {flex: 6.5 1 0%;}
@@ -584,7 +586,7 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .tbl_list th {font-weight: 500; text-align: center;}
 .tbl_list td {color: #666; font-size: 1em; letter-spacing: -.04em; font-weight: 300; line-height: 1.4;}
 .tbl_list td a {color: #666; display: inline-block;}
-.tbl_list td a:hover {color: #ea5b05; text-decoration: underline;}11656156156156156+251
+.tbl_list td a:hover {color: #ea5b05; text-decoration: underline;}
 .tbl_list tr:hover td {background: #f9f9f9;}
 .tbl_list .title {width: 45%}
 .tbl_view { border-collapse: collapse; margin: 0; padding: 0; width: 100%;  border-top: 2px solid #262626; background: #fff;}
@@ -614,8 +616,8 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 /* sub01-01*/
 .ceo-message {width: 100%; position: relative;}
 .ceo-message::after {content:''; width: 100%; height: 3px; background: linear-gradient(90deg, rgba(115,178,84,1) 0%, rgba(57,175,152,1) 100%); display: block; position: absolute; bottom: 0; left: 0;}
-.ceo-message img {width: 100%;margin }
-.ceo-text { margin-top: 2em;}
+.ceo-message img {width: 100%;}
+.ceo-text { margin-top: 2rem;}
 .ceo-text div {margin-bottom: 1.25em; line-height: 1.5; color: #666; font-weight: 300; font-size: 2rem; text-align: center;}
 .ceo-text div span{color:#40a23a;}
 <<<<<<< HEAD

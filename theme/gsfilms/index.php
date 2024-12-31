@@ -78,7 +78,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
             <ul>
                 <li>
                     <a href="/n/bbs/content.php?co_id=farmfilm">
-                        <img src="<?php echo G5_THEME_URL ?>/images/logo.svg" alt="">
+                        <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo1.svg" alt="">
                         <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_06.png" alt=""></h3>
                         <p>비옥한 토지에 건강하고 풍성하게 <br>성장하는 농산물을 상징하는 <br>㈜금성필름의 농업용 멀칭비닐 브랜드</p>
 
@@ -87,18 +87,16 @@ include_once(G5_THEME_PATH.'/head_common.php');
                 </li>
                 <li>
                     <a href="/n/bbs/content.php?co_id=technicalfilm">
-                        <span>산업용 필름</span>
+                        <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo2.svg" alt="">
                         <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_07.png" alt=""></h3>
                         <p>Every day Fresh를 슬로건으로 하는 <br>㈜금성필름의 산업용 필름 브랜드</p>
-                        <img src="<?php echo G5_THEME_URL ?>/images/icon_main_10.jpg" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="/n/bbs/content.php?co_id=homefilm">
-                        <span>가정용 비닐</span>
+                        <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo3.svg" alt="">
                         <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_08.png" alt=""></h3>
                         <p>깨끗한 친환경제품으로 대표되는 <br>㈜금성필름의 가정용 비닐 브랜드</p>
-                        <img src="<?php echo G5_THEME_URL ?>/images/icon_main_11.jpg" alt="">
                     </a>
                 </li>
             </ul>
