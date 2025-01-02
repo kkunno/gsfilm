@@ -24,7 +24,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         error_reporting(0); // 모든 에러 억제
     ?>
 	<div class="header">
-        <a href="#" class="h1"><img src="<?php echo G5_THEME_URL ?>/images/logo_color.png" alt="주식회사 금성필름"></a>
+        <a href="/" class="h1"><img src="<?php echo G5_THEME_URL ?>/images/logo_color.png" alt="주식회사 금성필름"></a>
         <button type="button" class="btn-menu"></button>        
         <div class="nav-wrap">
             <ul>
@@ -62,7 +62,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 </li>
                 <li><a href="/n/bbs/board.php?bo_table=video" <?php if($bo_table=="video" || $bo_table=="pds") echo 'class="active"';?>>홍보관</a>
                     <ul>
-                        <li><a href="/n/bbs/board.php?bo_table=video" <?php if($bo_table=="video") echo 'class="active"';?>>IR 영상보기</a></li>
+                        <li><a href="/bbs/board.php?bo_table=video" <?php if($bo_table=="video") echo 'class="active"';?>>IR 영상보기</a></li>
                         <li><a href="/bbs/board.php?bo_table=me4_3" <?php if($bo_table=="pds") echo 'class="active"';?>>자료 다운로드</a></li>
                     </ul>
                 </li>
