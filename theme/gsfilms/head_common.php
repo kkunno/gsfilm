@@ -10,9 +10,13 @@ include_once(G5_LIB_PATH.'/connect.lib.php');
 include_once(G5_LIB_PATH.'/popular.lib.php');
 ?>
 
+<script src="/js/jquery.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/theme.php"></script>
 <script src="<?php echo G5_THEME_URL ?>/js/swipe.js"></script>
 <script src="<?php echo G5_THEME_URL ?>/js/jquery-modal-video.min.js"></script>
 <script src="<?php echo G5_THEME_URL ?>/js/common.js"></script>
+
 
 <div class="wrap">	
 	<!-- 상단 영역 //-->

@@ -27,7 +27,6 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     </div>
     <!--// 푸터 영역 -->
 </div>
-
 </body>
 </html>
 
@@ -52,5 +51,8 @@ $(function() {
 });
 </script>
 
+
+
+
 <?php
-include_once(G5_THEME_PATH."/tail.sub.php");
+include_once(G5_THEME_PATH."/tail.sub.php");?>

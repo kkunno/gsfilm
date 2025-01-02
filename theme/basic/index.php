@@ -177,7 +177,6 @@ $Contact = ' "class="viewDetails Contact"><span> Contact</span>&nbsp;
     </div>
 </div>
 
-<<<<<<< HEAD
 <div class="co4">
     <div class="left">
     <div class="top">
@@ -212,22 +211,6 @@ $Contact = ' "class="viewDetails Contact"><span> Contact</span>&nbsp;
             <div class="imgs"><img src="../theme/basic/img/main/co4-3.svg"><?= $viewb. '/bbs/write.php?bo_table=me5_2'. $Contact ?></div>
         </div>
      </div>
-=======
-<div class="co3_wr">
-    <div class="co3">
-        <h3 class="co3_title">
-            소중한 사람들과 함께<br><span>신선한 유기농 농작물</span>을 즐겨요!
-        </h3>
-        <p>
-            숨겨진 보물을 찾는 듯한 설렘을 느끼며<br> 맛에 얽힌 이야기를 찾아보세요!
-        </p>
-        <div class="co_btn"> <!-- 버튼이 하고싶어요 도와주세요 -->
-        주문하러가기
-    </div>
-    </div>
-    <div class="co3_img">
-        <img src="../theme/basic/img/co3_img.jpg" alt="">
->>>>>>> a5b22c52de1d6ad116605437abe9ca991ed93452
     </div>
 </div>
 
