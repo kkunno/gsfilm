@@ -41,6 +41,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
                 <div class="swiper-slide" style="background-image: url(<?php echo G5_THEME_URL ?>/images/img_mainvisual02.jpg);"></div>
                 <div class="swiper-slide" style="background-image: url(<?php echo G5_THEME_URL ?>/images/img_mainvisual04.jpg);"></div>*/?>
 				    <div class="swiper-slide">
+                    <div class="blocker"></div>
       <iframe
         id="youtube-player"
         src="https://www.youtube.com/embed/4h4phu99NMs?autoplay=1&mute=1&loop=1&playlist=4h4phu99NMs&controls=0&disablekb=1&modestbranding=1&enablejsapi=1"
@@ -57,51 +58,88 @@ include_once(G5_THEME_PATH.'/head_common.php');
 	<!--// 메인 비주얼 -->
 
 
-    <!-- 콘텐트 영역 //-->
+    <!-- 프로덕트 영역 //-->
     <div class="main-content">
         <div class="main-product up-on-scroll">
             <h2>Product<p class="comment1">최고의 제품을 합리적인<br>제품으로 제공해드립니다</p></h2>
-
-
-       
-
         </div>
+
+
+
         <div class="main-product full up-on-scroll">
             <ul>
-                <li>
+                <li class="mainbox">
                     <a href="/n/bbs/content.php?co_id=farmfilm">
                         <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo1.svg" alt="">
-                        <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_06.png" alt=""></h3>
-                        <p>비옥한 토지에 건강하고 풍성하게 <br>성장하는 농산물을 상징하는 <br>㈜금성필름의 농업용 멀칭비닐 브랜드</p>
-
+                        <div>
+                            <p>농업용 멀칭필름<br>자원순환</p>
+                            <h3>자세히 보기 <img src="<?php echo G5_THEME_URL ?>/images/arrow.svg" alt=""></h3>
+                        </div>
                     </a>
                 </li>
-                <li>
+                <li class="mainbox">
                     <a href="/n/bbs/content.php?co_id=technicalfilm">
                         <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo2.svg" alt="">
-                        <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_07.png" alt=""></h3>
-                        <p>Every day Fresh를 슬로건으로 하는 <br>㈜금성필름의 산업용 필름 브랜드</p>
+                        <div>
+                            <p>산업용 포장필름</p>
+                            <h3>자세히 보기 <img src="<?php echo G5_THEME_URL ?>/images/arrow.svg" alt=""></h3>
+                        </div>
                     </a>
                 </li>
-                <li>
+                <li class="mainbox">
                     <a href="/n/bbs/content.php?co_id=homefilm">
                         <img class="logos" src="<?php echo G5_THEME_URL ?>/images/logo3.svg" alt="">
-                        <h3><img src="<?php echo G5_THEME_URL ?>/images/icon_main_08.png" alt=""></h3>
-                        <p>깨끗한 친환경제품으로 대표되는 <br>㈜금성필름의 가정용 비닐 브랜드</p>
+                        <div>
+                            <p>친환경 생분해 필름</p>
+                            <h3>자세히 보기 <img src="<?php echo G5_THEME_URL ?>/images/arrow.svg" alt=""></h3>
+                        </div>
                     </a>
                 </li>
             </ul>
         </div>
+
+        <script>
+            document.querySelectorAll('.mainbox').forEach((box) => {
+  box.addEventListener('mouseenter', () => {
+    document.querySelectorAll('.mainbox').forEach((otherBox) => {
+      if (otherBox !== box) {
+        otherBox.querySelector('a').classList.add('opacity0');
+      }
+    });
+  });
+
+  box.addEventListener('mouseleave', () => {
+    document.querySelectorAll('.mainbox a').forEach((link) => {
+      link.classList.remove('opacity0');
+    });
+  });
+});
+</script>
+     <div class="blank1"></div>
+    </div>
+    <!-- 프로덕트 영역 끝-->
+    
+
+
+
+
+    <!-- R&D 영역 -->
+
+    <div class="main-content bggray">
+    <div class="blank2"></div>
+        <div class="main-product up-on-scroll">
+            <h2 class="right">R&D Achievement<p class="comment1">지속적인 연구개발을 통하여<br>품질 경쟁력을 확보해 나아갑니다</p></h2>
+        </div>
+
+
         <div class="main-rnd up-on-scroll">
             <div>
-                <img src="<?php echo G5_THEME_URL ?>/images/icon_main_12.jpg" alt="">
+                <img src="<?php echo G5_THEME_URL ?>/images/mainbg.png" alt="">
                 <div>
-                    <h2>R&D</h2>
-                    <p class="comment2">지속적인 연구개발을 통하여 <br>품질 경쟁력을 확보해 나아갑니다.</p>
                     <ul>
-                        <li><a href="/n/bbs/content.php?co_id=lab"><img src="<?php echo G5_THEME_URL ?>/images/icon_main_13.png" alt="">기업부설연구소</a></li>
-                        <li><a href="/n/bbs/content.php?co_id=antiv"><img src="<?php echo G5_THEME_URL ?>/images/icon_main_14.png" alt="">향균비닐 제조공정</a></li>
-                        <li><a href="/n/bbs/content.php?co_id=permission"><img src="<?php echo G5_THEME_URL ?>/images/icon_main_15.png" alt="">각종 인증 및 허가</a></li>
+                        <li><a href="/n/bbs/content.php?co_id=lab"><img src="<?php echo G5_THEME_URL ?>/images/mainicon1.svg" alt="">회사현황 및 조직도</a></li>
+                        <li><a href="/n/bbs/content.php?co_id=antiv"><img src="<?php echo G5_THEME_URL ?>/images/mainicon2.svg" alt="">기업부설연구소</a></li>
+                        <li><a href="/n/bbs/content.php?co_id=permission"><img src="<?php echo G5_THEME_URL ?>/images/mainicon3.svg" alt="">인증 및 허가증</a></li>
                     </ul>
                 </div>
             </div>
@@ -136,6 +174,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
             </div>
         </div>
     </div>
+</div>
 	<!--// 콘텐트 영역 -->
 
 		<script>
