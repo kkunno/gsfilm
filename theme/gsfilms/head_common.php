@@ -32,9 +32,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <ul>
                         <li><a href="/bbs/content.php?co_id=me1" <?php if($co_id=="greeting") echo 'class="active"';?>>인사말</a></li>
                         <li><a href="/bbs/content.php?co_id=me1_4" <?php if($co_id=="summary") echo 'class="active"';?>>회사현황 및 조직도</a></li>
-                       <?/* <li><a href="/bbs/content.php?co_id=me1_2" <?php if($co_id=="vision") echo 'class="active"';?>>비전 및 C.I</a></li>*/?>
+                       <li><a href="/bbs/content.php?co_id=me1_2" <?php if($co_id=="vision") echo 'class="active"';?>>비전 및 C.I</a></li>
                         <li><a href="/bbs/content.php?co_id=me1_5" <?php if($co_id=="history") echo 'class="active"';?>>연혁</a></li>
-                       <?/* <li><a href="/bbs/content.php?co_id=me1_3" <?php if($co_id=="location") echo 'class="active"';?>>사업장 위치</a></li>*/?>
+                       <li><a href="/bbs/content.php?co_id=me1_3" <?php if($co_id=="location") echo 'class="active"';?>>사업장 위치</a></li>
                     </ul>
                 </li>
                 <li><a href="/bbs/content.php?co_id=me2" <?php if($co_id=="farmfilm" || $co_id=="technicalfilm" || $co_id=="homefilm" || $co_id=="equipment" || $co_id=="antiv") echo 'class="active"';?>>제품과 기술</a>

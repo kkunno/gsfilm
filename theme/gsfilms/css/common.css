@@ -813,7 +813,7 @@ ul li .ci{
   font-size:1.4rem; line-height: 1.5;
 }
 .con p span{
-  font-size: 1.6; font-weight:600;
+  font-size: 1.6rem; font-weight:600;
 }
 .con_wr2{
   display:flex; flex-direction: column; 
@@ -837,13 +837,17 @@ ul li .ci{
 /*공업용 필름 */
 
 .con_wr .full li{
-  width:100%; display:flex;
+  width:100%; display:flex; flex-wrap: wrap; gap:10px; justify-content: space-around;
+}
+.con_wr .film_title{
+  width:100%; 
 }
 .con_wr .full li .con{
-  display: flex; flex-direction: column;
+  display: flex; flex-direction: column; width:49%; justify-items: flex-start;
 }
-
-
+.con_wr img{
+ object-fit: cover; 
+}
 
 
 
