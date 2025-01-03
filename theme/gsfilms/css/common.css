@@ -394,10 +394,12 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .main-visual .main-list > li a:hover {color: #ff7620; transition: all .3s ease-in-out;}
 .main-visual .main-list > li a:hover img {transform: scale(1.05);}
 .up-on-scroll {transition: transform .7s, opacity 1s;}
-.main-content {width: 100%; margin: 7.5em auto;}
+.main-content {width: 100%; }
 
 .main-content h2 {font-size: 4rem; color: #909090; font-weight: 500; position: relative;}
 .main-content h2.right{text-align: right;}
+.main-content h2.white{color: #fff;}
+.main-content h2.white .comment1{color: #fff;}
 .main-content .comment1 {font-size: 5.2rem; color: #0A8E39; font-weight: 800; line-height: 1.3; margin-top: 25px;}
 .main-content .comment2 {font-size: 1.25em; line-height: 1.4; color: #6f6f6f; font-weight: 400; margin: 2.5em 0; }
 .main-product {width: 100%;  max-width: 1500px; margin: 0 auto;}
@@ -425,8 +427,8 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .main-rnd > div > div ul li { display: block; font-size: 1.25em; color: #000; font-weight: 500; margin-bottom: 1em;}
 .main-rnd > div > div ul li img {margin-right: 15px;}
 .main-rnd a:hover {color: #e79c26;}
-.main-etc {background: #eff2f3; padding: 6.25em 0;}
-.main-etc > div {width: 90%;  max-width: 1200px; margin: 0 auto; font-size: 0; position: relative;}
+.main-etc { padding: 6.25em 0; z-index: 1; position: relative;}
+.main-etc > div {width:100%;padding: 0 2.08vw; max-width: calc(1500px + 4.16vw); margin: 0 auto; font-size: 0; position: relative;}
 .main-board {display: inline-block; width: calc(45% - 40px); margin-right: 40px; font-size: 16px; vertical-align: top;}
 .main-board h2 {font-size: 1.5625em; position: relative; margin-bottom: 1em;}
 .main-board h2 > a {position: absolute; right: 0; top: 0;}
@@ -1192,6 +1194,17 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 
 .blocker{background-color: transparent; position: absolute; top:0; bottom: 0; left: 0; right: 0; z-index: 2;}
 .bggray{background-color: #F4F4F4;}
+.bg7FBF40{background-color: #7FBF40; position: relative;}
+.mainbglogo{position: absolute; width: 40%; bottom: 0; right: 0; z-index: 0;}
+
+.mainmap, .mainmapwr .main-product{ width: 50%; position: relative;}
+.mainmap .mainmap2{position: absolute; bottom: 0;}
+.mainmapwr .main-product{display: inline-block; padding-left: 3vw; font-size: 3.5rem; line-height: 1.5; font-weight: 400; margin: 160px 0;}
+.mainmapwr .main-product span{ font-weight: 700 ;}
+.mainmap{justify-content: flex-end;}
+.mainmapwr .mainmap{display: inline-flex;}
+.mainmap .mainmap2{display: flex; width: 35vw; height: 35vw; overflow: hidden; justify-content: center; align-items: center; border-radius: 40px; box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.15);}
+
 
 .main-rnd > div{display: flex;}
 .main-rnd > div > div ul{position: fixed; right: calc(50% - 750px); top: 50%; transform: translateY(-50%);}

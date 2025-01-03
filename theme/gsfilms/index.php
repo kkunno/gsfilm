@@ -18,6 +18,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
 	
 	<!-- 메인 비주얼 //-->
 	<div class="main-visual">
+        
         <div class="main-text">
             <img src="<?php echo G5_THEME_URL ?>/images/img_mainvisual_text.svg" alt="ECO FRIENDLY FILM">
             <p>생분해 멀칭필름 / 농업용 멀칭필름 / 산업용 수축필름 / 바이오매스 필름 / 자원순환</p>
@@ -44,7 +45,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
                     <div class="blocker"></div>
       <iframe
         id="youtube-player"
-        src="https://www.youtube.com/embed/4h4phu99NMs?autoplay=1&mute=1&loop=1&playlist=4h4phu99NMs&controls=0&disablekb=1&modestbranding=1&enablejsapi=1"
+        src="https://www.youtube.com/embed/k3LuoLCA06k?autoplay=1&mute=1&loop=1&playlist=k3LuoLCA06k&controls=0&disablekb=1&modestbranding=1&enablejsapi=1"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
@@ -60,6 +61,7 @@ include_once(G5_THEME_PATH.'/head_common.php');
 
     <!-- 프로덕트 영역 //-->
     <div class="main-content">
+    <div class="blank2"></div>
         <div class="main-product up-on-scroll">
             <h2>Product<p class="comment1">최고의 제품을 합리적인<br>제품으로 제공해드립니다</p></h2>
         </div>
@@ -145,8 +147,25 @@ include_once(G5_THEME_PATH.'/head_common.php');
             </div>
         </div>
     </div>
+
+<!-- -->
+
+
+<div class="main-content bg7FBF40">
+    <div class="blank2"></div>
+        <div class="main-product up-on-scroll">
+            <h2 class="white">Promotional Video<p class="comment1">환경을 생각한 필름, 미래를 위한 선택</p></h2>
+        </div>
     <div class="main-etc up-on-scroll">
         <div>
+
+        <?php
+            // latest(스킨, 게시판아이디, 출력라인, 글자수);
+                echo latest('theme/pic_block2', 'video', 2, 30);
+            ?>
+
+
+        <?/*
             <div class="main-board">
                 <div class="main-notice">
 					<?php
@@ -172,10 +191,56 @@ include_once(G5_THEME_PATH.'/head_common.php');
                     <a href="/n/bbs/content.php?co_id=location"><img src="<?php echo G5_THEME_URL ?>/images/icon_main_19.png" alt="">CONTACT</a>
                 </div>
             </div>
+        */?>
         </div>
     </div>
+    <div class="blank4"></div>
+    <div class="blank1"></div>
+    <img class="mainbglogo" src="<?php echo G5_THEME_URL ?>/images/mainbglogo.png" alt="">
+</div>
 </div>
 	<!--// 콘텐트 영역 -->
+
+
+
+
+<div class="main-content">
+        <div class="mainmapwr">
+            <div class="mainmap">
+
+                <div class="mainmap2">
+                <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1735884293320" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                <!--
+                    2. 설치 스크립트
+                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1735884293320",
+                        "key" : "2moro",
+                        "mapWidth" : "1000",
+                        "mapHeight" : "1000"
+                    }).render();
+                </script>
+                </div>
+            </div><div class="main-product up-on-scroll">
+                <h2><p class="comment1">오시는 길</p></h2><br>
+                <p>전라남도 함평군 학교면 동함평산단길 22<br>
+                <span>TEL </span>&nbsp; 061)323-3236<br>
+                <span>FAX </span>&nbsp; 061)323-3113
+                </p>
+            </div>
+        </div>
+</div>
+
+
+
 
 		<script>
 			// main swiper
