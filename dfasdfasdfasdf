@@ -1,0 +1,21 @@
+[33m8eee7ba[m[33m ([m[1;36mHEAD -> [m[1;32msub2[m[33m, [m[1;31morigin/sub2[m[33m)[m HEAD@{0}: checkout: moving from sub2 to sub2
+[33m8eee7ba[m[33m ([m[1;36mHEAD -> [m[1;32msub2[m[33m, [m[1;31morigin/sub2[m[33m)[m HEAD@{1}: checkout: moving from sub2 to sub2
+[33m8eee7ba[m[33m ([m[1;36mHEAD -> [m[1;32msub2[m[33m, [m[1;31morigin/sub2[m[33m)[m HEAD@{2}: checkout: moving from main to sub2
+[33m9c43e85[m[33m ([m[1;32mmain[m[33m)[m HEAD@{3}: commit: upload
+[33m03cd45d[m HEAD@{4}: commit: main css 살림
+[33m9aa64b6[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{5}: pull origin sub2: Fast-forward
+[33m9580e55[m HEAD@{6}: commit: head
+[33mccea103[m HEAD@{7}: commit: head
+[33m2190b6c[m HEAD@{8}: commit: 메인 커밋
+[33mc2572e0[m HEAD@{9}: pull origin main --rebase (finish): returning to refs/heads/main
+[33mc2572e0[m HEAD@{10}: pull origin main --rebase (pick): main change
+[33mc867e84[m HEAD@{11}: pull origin main --rebase (start): checkout c867e84f234e31058e8a343938b57c9af5a73546
+[33ma833c6e[m HEAD@{12}: commit: main change
+[33m03d055e[m HEAD@{13}: commit: main change
+[33mfd8c170[m HEAD@{14}: commit: upload
+[33mcd80a90[m HEAD@{15}: commit: Fix submodule state
+[33mfe3527d[m HEAD@{16}: reset: moving to HEAD
+[33mfe3527d[m HEAD@{17}: commit: first commit
+[33mcc8d4d6[m HEAD@{18}: Branch: renamed refs/heads/main to refs/heads/main
+[33mcc8d4d6[m HEAD@{20}: Branch: renamed refs/heads/master to refs/heads/main
+[33mcc8d4d6[m HEAD@{22}: commit (initial): first commit
