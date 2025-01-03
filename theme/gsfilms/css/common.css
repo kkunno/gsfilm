@@ -668,8 +668,9 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .sub0103-list.bi-list-03 .type-e {background: #49494a;}
 .sub0103-list.bi-list-03 .type-f {background: #231f20;}
 
-.sub_title{
-  display:block; color: #059646; text-align: center; font-size: 4.2rem; font-weight: 700; padding:20px 0;
+.con_wr .sub_title{
+  display:block; color: #059646; font-size: 3.2rem; font-weight: 600; margin:20px 0;
+
 }
 .vision{
   border-radius: 20px 0px; border: 3px solid #94E34F; background: #FFF; width:860px; padding:30px 0; margin:40px auto; display: flex; align-items: center; justify-content: center;
@@ -705,6 +706,93 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 
 
 
+
+
+.ci_wr2.bi3 ul:nth-child(1) li:nth-child(3) .ci{
+  background-color:#20973A;
+}
+.ci_wr2.bi3 ul:nth-child(1) li:nth-child(4) .ci{
+  background-color:#349B47;
+}
+.ci_wr2.bi3 ul:nth-child(2) li:nth-child(1) .ci{
+  background-color:#49494A;
+}
+
+/* 농업용필름 */
+.con_wr{
+  display:flex; flex-direction: column; 
+}
+.con_txt{
+  font-size: 1.8rem; line-height: 1.5; margin:30px 0; 
+}
+.con_txt span{
+  font-size:2rem; font-weight:600;
+}
+.con_wr .info_wr{
+  width:100%; padding:20px 30px;
+}
+.info_wr .info_txt{
+  font-weight: 700;
+}
+.con_wr ul{
+  display: flex; flex-wrap: wrap; gap:20px;
+}
+.con_wr ul li{
+  width:49%; display:flex; padding:30px; gap:30px;
+  border-radius: 10px; box-shadow: 3px 4px 11px 5px rgba(0, 0, 0, 0.10);
+  justify-content: center; align-items: center;
+}
+.con_wr img{
+  width:50%; object-fit: scale-down;
+}
+.con{
+  display: flex; flex-direction: column; gap:20px;
+}
+.con .con_title{
+  font-size:3.2rem; font-weight: 600; 
+}
+.con .con_title .gray{
+  font-size: 1.4rem; color:#B6B6B6; 
+}
+.con p{
+  font-size:1.4rem; line-height: 1.5;
+}
+.con p span{
+  font-size: 1.6rem; font-weight:600;
+}
+.con_wr2{
+  display:flex; flex-direction: column; 
+}
+.con_wr2 .sub_title{
+  color: #059646; font-size: 3.2rem; font-weight: 600; margin:20px 0;
+}
+.con_wr2 .ci_wr{
+  display: flex; flex-direction: column;
+}
+.slide .sub_title{
+  font-size:3.2rem; font-weight: 600; color:#000; text-align: left; margin:0; padding:10px 0;
+}
+.slide .sub_txt{
+  font-size: 1.6rem; line-height: 1.5;
+}
+.sub_txt .line2 {
+  margin-bottom:10px;
+}
+
+/*공업용 필름 */
+
+.con_wr .full li{
+  width:100%; display:flex; flex-wrap: wrap; gap:10px; justify-content: space-around;
+}
+.con_wr .film_title{
+  width:100%; 
+}
+.con_wr .full li .con{
+  display: flex; flex-direction: column; width:49%; justify-items: flex-start;
+}
+.con_wr img{
+ object-fit: cover; 
+}
 
 
 
@@ -1185,6 +1273,7 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .content .co4 .flex .row:nth-child(even) .box.content{direction: rtl;  text-align: right; /* 실제로는 오른쪽 정렬 효과 */}
 
 
+
 .displaynone{display : none;}
 .mainbox{position: relative;}
 .mainbox a{opacity: 1; transition: 0.5s all;  text-align: left; height: 100%;}
@@ -1211,3 +1300,27 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .main-rnd > div > div ul li{background: linear-gradient(90deg, #7FBF40 0%, #0A8E39 100%); border-radius: 40px 0px;  position: relative;}
 .main-rnd > div > div ul li a{height: 100%; display: block; color: #fff; font-size: 4rem; text-align: right;padding: 70px 40px 70px 180px; font-weight: 700;}  
 .main-rnd > div > div ul li a img{height: 120px; position: absolute; bottom: 0; left:40px;}
+
+/* 슬라이더 */
+.slick-prev:before, .slick-next:before{
+  font-size:4rem !important;
+  color:#267E2A !important;
+}
+
+.slider {
+  width: 100%;
+}
+.slick-list{
+  width:100%;
+}
+.sub-slider .slide {
+  margin:10px;
+  width:600px; height:550px; padding: 20px 10px; border-radius: 10px; border: 1px solid #DDD; 
+  box-sizing: border-box;
+}
+.sub-slider img {
+  width: 100%; height: auto;
+}
+.slick-prev{
+  left:-42px !im;
+}
