@@ -652,8 +652,8 @@ button[type=button]:disabled, input[type=submit]:disabled, input[type=button]:di
 .sub0103-list.bi-list-03 .type-e {background: #49494a;}
 .sub0103-list.bi-list-03 .type-f {background: #231f20;}
 
-.sub_title{
-  display:block; color: #059646; text-align: center; font-size: 4.2rem; font-weight: 700; margin:20px 0;
+.con_wr .sub_title{
+  display:block; color: #059646; font-size: 3.2rem; font-weight: 600; margin:20px 0;
 }
 .vision{
   border-radius: 20px 0px; border: 3px solid #94E34F; background: #FFF; width:860px; padding:30px 0; margin:40px auto; display: flex; align-items: center; justify-content: center;
@@ -773,7 +773,7 @@ ul li .ci{
   background-color:#49494A;
 }
 
-/* 서브 제품과기술 */
+/* 농업용필름 */
 .con_wr{
   display:flex; flex-direction: column; 
 }
@@ -818,6 +818,34 @@ ul li .ci{
 .con_wr2{
   display:flex; flex-direction: column; 
 }
+.con_wr2 .sub_title{
+  color: #059646; font-size: 3.2rem; font-weight: 600; margin:20px 0;
+}
+.con_wr2 .ci_wr{
+  display: flex; flex-direction: column;
+}
+.slide .sub_title{
+  font-size:3.2rem; font-weight: 600; color:#000; text-align: left; margin:0; padding:10px 0;
+}
+.slide .sub_txt{
+  font-size: 1.6rem; line-height: 1.5;
+}
+.sub_txt .line2 {
+  margin-bottom:10px;
+}
+
+/*공업용 필름 */
+
+.con_wr .full li{
+  width:100%; display:flex;
+}
+.con_wr .full li .con{
+  display: flex; flex-direction: column;
+}
+
+
+
+
 
 /* sub02-01 */
 .pro-text {margin: 1em 0; background: #fff; padding: 4em 2em; box-sizing: border-box; border: 6px solid #35b582; margin-bottom: 30px;}
@@ -1318,7 +1346,7 @@ ul li .ci{
 
 /* 슬라이더 */
 .slick-prev:before, .slick-next:before{
-  width:50px; height:50px;
+  font-size:4rem !important;
   color:#267E2A !important;
 }
 
@@ -1328,11 +1356,14 @@ ul li .ci{
 .slick-list{
   width:100%;
 }
-.sub-slider div {
-  text-align: center; 
-  width:600px; padding: 10px; border-radius: 10px; border: 1px solid #DDD; 
+.sub-slider .slide {
+  margin:10px;
+  width:600px; height:550px; padding: 20px 10px; border-radius: 10px; border: 1px solid #DDD; 
   box-sizing: border-box;
 }
 .sub-slider img {
   width: 100%; height: auto;
+}
+.slick-prev{
+  left:-42px !im;
 }
